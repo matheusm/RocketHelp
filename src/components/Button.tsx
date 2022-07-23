@@ -4,7 +4,7 @@ type Props = IButtonProps & {
   title: string;
 }
 
-export function Input({ title, ...rest }: Props) {
+export function Button({ title, ...rest }: Props) {
   return (
     <ButtonNativeBase
       bg="green.700"
